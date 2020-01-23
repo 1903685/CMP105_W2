@@ -20,10 +20,16 @@ private:
 	void beginDraw();
 	void endDraw();
 
+	bool MouseHold;
+	int PosX;
+	int PosY;
+
 	// Default variables for level class.
 	sf::RenderWindow* window;
 	Input* input;
 
 	// Add your object here
-
+	sf::CircleShape Circle;
+	sf::Font font;
+	sf::Text text;
 };
